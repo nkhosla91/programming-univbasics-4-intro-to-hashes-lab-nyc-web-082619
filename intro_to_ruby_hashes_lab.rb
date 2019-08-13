@@ -15,8 +15,8 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  newhash = { :key => value}
-  return newhash
+  new_hash = { :key => value}
+  return new_hash
 end
 
 def read_from_hash(hash, key)
